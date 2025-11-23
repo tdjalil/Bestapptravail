@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Application de Travail Géante</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+<h1>Application de Travail Géante</h1>
+<p>Des quiz et exercices automatiques, toutes matières, prêts à l’emploi !</p>
+</header>
+
+<nav>
+<a href="#quiz">Quiz</a>
+<a href="#exercises">Exercices</a>
+<a href="#progress">Progrès</a>
+</nav>
+
+<section id="quiz">
+<h2>Quiz</h2>
+<div id="quizArea"></div>
+<button onclick="startQuiz()">Commencer le quiz</button>
+</section>
+
+<section id="exercises">
+<h2>Exercices</h2>
+<div id="exerciseArea"></div>
+<button onclick="showExercise()">Voir un exercice</button>
+</section>
+
+<section id="progress">
+<h2>Suivi des progrès</h2>
+<div id="progressBar"><div id="progressFill"></div></div>
+<p id="scoreText">Score : 0 / 0</p>
+</section>
+
+<footer>
+<p>© 2025 Application de Travail Géante. Tous droits réservés.</p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
